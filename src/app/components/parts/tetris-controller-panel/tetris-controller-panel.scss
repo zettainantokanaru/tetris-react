@@ -1,0 +1,22 @@
+.tetris-button-panel {
+  border-style: none;
+  width: 100%;
+}
+
+.tetris-button {
+  min-width: 40px;
+  padding: 0.5em 1em;
+  margin: 2px 4px;
+  text-decoration: none;
+  background: #00bfff;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+
+.tetris-button:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}

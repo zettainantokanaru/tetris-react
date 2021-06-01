@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+html {
+    touch-action: manipulation;
+}
+
+.app {
+    width: 668px;
+    height: 800px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-size: auto;
+    background-image: url(../image/bg.jpg);
+    .main-screen {
+        width: 380px;
+        height: 760px;
+        margin: 10px;
+        border: solid 1px #ffffff;
+        background-color: #000000;
+    }
+    .side-board {
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        color: white;
+        p {
+            margin: 0;
+            padding: 4px 6px;
+            font-weight: bold;
+        }
+        .controller {
+            width: 228px;
+            height: 228px;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+}

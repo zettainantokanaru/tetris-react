@@ -1,0 +1,55 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development --history-api-fallback",
+    "build": "webpack --config ./webpack.config.js --mode development --history-api-fallback",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "@babel/preset-react": "7.0.0",
+    "awesome-typescript-loader": "5.2.1",
+    "babel-loader": "8.0.6",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^4.5.2",
+    "prettier": "1.18.2",
+    "sass-loader": "^7.3.1",
+    "source-map-loader": "0.2.4",
+    "style-loader": "^1.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "3.5.3",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "3.3.7",
+    "webpack-dev-server": "3.8.0",
+    "webpack-livereload-plugin": "^3.0.1"
+  },
+  "dependencies": {
+    "@types/react": "16.9.2",
+    "@types/react-dom": "16.9.0",
+    "@types/react-redux": "^7.1.2",
+    "@types/react-router-dom": "^4.3.5",
+    "connected-react-router": "^6.5.2",
+    "history": "^4.9.0",
+    "node-sass": "^4.12.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4"
+  }
+}
